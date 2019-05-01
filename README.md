@@ -1,6 +1,11 @@
 # gyp-android-example
 An example of using GYP for building native library for Android
 
+### Prerequisites
+
+- ninja
+- environment variable NDK_DIR=/path/to/ndk
+
 Here is example of generating ninja files for x86 architecture on macOS
 
     cd app/src/main/cpp
